@@ -152,6 +152,63 @@ aside {
     color: #000;
 }
 
+.music{
+    width: 206px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.music p{
+    width: 106px;
+    height: 16px;
+    margin: 22px 0 0 -24px;
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+}
+
+.like{
+    width: 222px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.like p{
+    width: 222px;
+    height: 16px;
+    margin: 22px 0 0 -24px;
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+}
+
+.assistir{
+    width: 222px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.assistir p{
+    width: 222px;
+    height: 16px;
+    margin: 22px 0 0 -24px;
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+}
+
 main {
     grid-area: main;
 }
