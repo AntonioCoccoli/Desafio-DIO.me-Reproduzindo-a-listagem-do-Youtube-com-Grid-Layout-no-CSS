@@ -1,19 +1,18 @@
 body{
-    width: 100vw;
+    width: 4fr;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: "header header header header header" 
-    "aside main main main main" 
-    "aside main main main main"
-    "aside main main main main"
-    "aside main main main main";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "header header header header" 
+    "aside main main main" 
+    "aside main main main"
+    "aside main main main";
 }
 
 header{
     grid-area: header;
-    width: 100%;
+    width: 4fr;
     height: 56px;
     padding: 0 24px;
     display: flex;
@@ -40,13 +39,15 @@ header{
     height: 40px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
 }
 
 .grande{
     width: 350px;
     height: 40px;
     border: 1px solid #ccc;
-    margin: 8px 0 0 400px;
 }
 
 .pequena{
@@ -56,11 +57,29 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8px 0 0 0;
+
 }
 
 .right{
+    width: 130px;
+    height: 34px;
+    margin: 0 0 0 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.camera{
+    margin-left: -120px;
+}
+
+.sino{
+
+}
+
+.avatarprof img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
 }
 
 aside{
