@@ -465,22 +465,59 @@ main {
     top: 230px;
 }
 
-.video5 {}
+.video5 {
+    width: 1fr;
+    height: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: -75px;
+    left: 16px;
+}
 
-.video5 .aprender img {}
+.video5 .aprender img {
+    width: 250px;
+    height: 140.29px;
+}
 
 .video5 .avatar img {
     border-radius: 50%;
+    position: absolute;
+    top: 195px;
+    left: 40px;
 }
 
-.video5 p {}
+.video5 p {
+    width: 197px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    top: 180px;
+    left: 100px;
+    position: absolute;
+    left: 100px;
+}
 
-.video5 .span {}
+.video5 .span {
+    width: 160px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    top: 230px;
+    position: absolute;
+}
 
 .video6 {
     width: 1fr;
     height: 1fr;
-    margin: 22px 0 0 15px;
+    margin: 22px 0 0 185px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -593,6 +630,174 @@ main {
 }
 
 .video8 .span {
+    width: 160px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    position: absolute;
+    top: 230px;
+}
+
+.video9 {
+    width: 1fr;
+    height: 1fr;
+    margin: 22px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.scrum3 img {
+    width: 250px;
+    height: 140.29px;
+}
+
+.video9 .avatar img {
+    border-radius: 50%;
+}
+
+.video9 p {
+    width: 197px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.video9 .span {
+    width: 160px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    position: absolute;
+    top: 230px;
+}
+
+.video10 {
+    width: 1fr;
+    height: 1fr;
+    margin: 22px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.machine3 img {
+    width: 250px;
+    height: 140.29px;
+}
+
+.video10 .avatar img {
+    border-radius: 50%;
+}
+
+.video10 p {
+    width: 197px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.video10 .span {
+    width: 160px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    position: absolute;
+    top: 230px;
+}
+
+.video11 {
+    width: 1fr;
+    height: 1fr;
+    margin: 22px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.global2 img {
+    width: 250px;
+    height: 140.29px;
+}
+
+.video11 .avatar img {
+    border-radius: 50%;
+}
+
+.video11 p {
+    width: 197px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.video11 .span {
+    width: 160px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    position: absolute;
+    top: 230px;
+}
+
+.video12 {
+    width: 1fr;
+    height: 1fr;
+    margin: 22px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.aprender2 img {
+    width: 250px;
+    height: 140.29px;
+}
+
+.video12 .avatar img {
+    border-radius: 50%;
+}
+
+.video12 p {
+    width: 197px;
+    height: 74px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.video12 .span {
     width: 160px;
     height: 74px;
     font-family: Roboto;
